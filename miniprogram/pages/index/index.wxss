@@ -1,0 +1,15 @@
+/**index.wxss**/
+.fontStyle{
+  font-family: cursive;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-decoration: underline;
+  text-decoration-color: royalblue;
+}
+
+input{
+  margin: 20px 0;
+  border-bottom: 1px solid yellow;
+}

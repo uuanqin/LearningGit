@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="box">
+  <view class='title'>图片和声音</view>
+  <view>
+    <image src="{{imgSrc}}" bindtap="tapCat"></image>
+  </view>
+</view>
+
+
+
+
+<view class='box'>
+  <view class='title'>字体样式设置</view>
+  <view style="font-family:隶书;font-size: large;">
+    <view>设置字体样式</view>
+    <view>字体</view>
+  </view>
+  =============
+  <view class='fontStyle'>
+    <view>设置字体样式</view>
+    <view>字体</view>
+
+  </view>
+</view>
+
+<view class="box">
+<view class='title'>摄氏温度转换为华氏温度</view>
+<view><input placeholder="请输入摄氏温度（℃）" type="digit" bindblur="calc"></input>
+</view>
+<view>华氏温度为：{{F}}</view>
+</view>
